@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+}
+
+.noah-pic{
+    -webkit-mask-image:url(../images/noah-mask.png);
+    mask-image:url(../images/noah-mask.png); 
+    -webkit-mask-size:auto 500px;
+    mask-size:auto 500px;
+}
+.noah-pic img {
+    height:500px;
+    width:auto;
+    background-blend-mode:multiply;
+    -webkit-shape-outside:polygon(108px 499px, 14.4% 62.6%, 18.66% 52.6%, 141px 26.2%, 514px 125px, 69.07% 41.2%, 77.21% 42.2%, 584px 99%);
+    shape-outside:polygon(108px 499px, 14.4% 62.6%, 18.66% 52.6%, 141px 26.2%, 514px 125px, 69.07% 41.2%, 77.21% 42.2%, 584px 99%);
+}
+.frame {
+    background-image:url(../images/frame.png),linear-gradient(157deg, rgba(197,199,25,1) 0%, rgba(204,205,154,1) 38%, rgba(70,114,159,1) 100%);
+    background-repeat:no-repeat; 
+    background-size: auto 500px;   
+}
+.brush{
+    background-image:url(../images/image-effect.png);
+    background-size:auto 500px;
+}
